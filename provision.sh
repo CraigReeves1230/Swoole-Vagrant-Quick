@@ -17,3 +17,4 @@ sudo su -c "sudo echo "extension=swoole.so" > /etc/php/7.2/mods-available/swoole
 sudo ln -s /etc/php/7.2/mods-available/swoole.ini /etc/php/7.2/cli/conf.d/20-swoole.ini
 
 sudo service php7.2-fpm restart
+
