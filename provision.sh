@@ -1,3 +1,4 @@
+cd /
 sudo apt-get update
 
 sudo apt-get install build-essential zlib1g-dev libpcre3 libpcre3-dev unzip
