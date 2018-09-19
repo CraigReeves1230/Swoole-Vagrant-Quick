@@ -1,8 +1,8 @@
 cd /
 sudo apt-get update
 
-sudo apt-get install build-essential zlib1g-dev libpcre3 libpcre3-dev unzip
-sudo apt install libssl-dev
+sudo apt-get install -y build-essential zlib1g-dev libpcre3 libpcre3-dev unzip
+sudo apt install -y libssl-dev
 
 sudo apt-get install -y software-properties-common
 sudo add-apt-repository ppa:ondrej/php
